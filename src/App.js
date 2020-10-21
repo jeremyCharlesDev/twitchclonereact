@@ -1,25 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from './Components/Header/Header'
+import Sidebar from './Components/Sidebar/Sidebar'
+import Games from './Components/Games/Games'
+import TopStreams from './Components/TopStreams/TopStreams'
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import Live from './Components/Live/Live'
+import GameStreams from './Components/GameStreams/GameStreams'
+import Resultats from './Components/Resultats/Resultats'
+import Error from './Components/Error/Error'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router forceRefresh={true}>
+    
+      <div className="App">
+        <Header/>
+        <Sidebar/>
+        <Switch>
+          <Route exact path="/" component={Games}/>
+          <Route exact path="/top-streams" component={TopStreams}/>
+          <Route exact path="/live/:slug" component={Live}/>
+          <Route exact path="/game/:slug" component={GameStreams}/>
+          <Route exact path="/resultats/:slug" component={Resultats}/>
+          <Route exact path="/resultats/" component={Error}/>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
