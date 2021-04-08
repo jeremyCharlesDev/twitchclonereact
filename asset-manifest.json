@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/twitchclonereact/static/css/main.2df7da0d.chunk.css",
-    "main.js": "/twitchclonereact/static/js/main.d0ac8782.chunk.js",
-    "main.js.map": "/twitchclonereact/static/js/main.d0ac8782.chunk.js.map",
+    "main.js": "/twitchclonereact/static/js/main.f9d30df8.chunk.js",
+    "main.js.map": "/twitchclonereact/static/js/main.f9d30df8.chunk.js.map",
     "runtime-main.js": "/twitchclonereact/static/js/runtime-main.539e4466.js",
     "runtime-main.js.map": "/twitchclonereact/static/js/runtime-main.539e4466.js.map",
     "static/js/2.7c81cb43.chunk.js": "/twitchclonereact/static/js/2.7c81cb43.chunk.js",
     "static/js/2.7c81cb43.chunk.js.map": "/twitchclonereact/static/js/2.7c81cb43.chunk.js.map",
     "index.html": "/twitchclonereact/index.html",
-    "precache-manifest.ca737699c6f0a77ca841847ccacdc327.js": "/twitchclonereact/precache-manifest.ca737699c6f0a77ca841847ccacdc327.js",
+    "precache-manifest.050c79364a6f437de19fae4abca0d8ef.js": "/twitchclonereact/precache-manifest.050c79364a6f437de19fae4abca0d8ef.js",
     "service-worker.js": "/twitchclonereact/service-worker.js",
     "static/css/main.2df7da0d.chunk.css.map": "/twitchclonereact/static/css/main.2df7da0d.chunk.css.map",
     "static/js/2.7c81cb43.chunk.js.LICENSE.txt": "/twitchclonereact/static/js/2.7c81cb43.chunk.js.LICENSE.txt",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.539e4466.js",
     "static/js/2.7c81cb43.chunk.js",
     "static/css/main.2df7da0d.chunk.css",
-    "static/js/main.d0ac8782.chunk.js"
+    "static/js/main.f9d30df8.chunk.js"
   ]
 }
